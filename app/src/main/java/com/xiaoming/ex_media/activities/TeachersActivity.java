@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.xiaoming.exercise.mygymclub.R;
+import com.xiaoming.ex_media.R;
 
 public class TeachersActivity extends AppCompatActivity {
     LinearLayout teacher1;

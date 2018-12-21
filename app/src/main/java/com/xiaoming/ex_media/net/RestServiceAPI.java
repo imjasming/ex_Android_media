@@ -1,6 +1,6 @@
 package com.xiaoming.ex_media.net;
 
-import com.xiaoming.exercise.mygymclub.model.User;
+import com.xiaoming.ex_media.model.User;
 
 import java.util.Map;
 

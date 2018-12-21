@@ -1,9 +1,9 @@
 package com.xiaoming.ex_media.net;
 
-import com.xiaoming.exercise.mygymclub.net.callback.IError;
-import com.xiaoming.exercise.mygymclub.net.callback.IFailure;
-import com.xiaoming.exercise.mygymclub.net.callback.IRequest;
-import com.xiaoming.exercise.mygymclub.net.callback.ISuccess;
+import com.xiaoming.ex_media.net.callback.IError;
+import com.xiaoming.ex_media.net.callback.IFailure;
+import com.xiaoming.ex_media.net.callback.IRequest;
+import com.xiaoming.ex_media.net.callback.ISuccess;
 
 import java.util.WeakHashMap;
 

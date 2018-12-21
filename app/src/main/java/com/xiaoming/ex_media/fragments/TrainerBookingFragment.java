@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.xiaoming.exercise.mygymclub.R;
-import com.xiaoming.exercise.mygymclub.activities.IntroductionActivity;
+import com.xiaoming.ex_media.R;
+import com.xiaoming.ex_media.activities.IntroductionActivity;
 
 public class TrainerBookingFragment extends Fragment {
     LinearLayout teacher1;

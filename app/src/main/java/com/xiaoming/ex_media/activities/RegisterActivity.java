@@ -7,8 +7,8 @@ import android.util.Patterns;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.xiaoming.exercise.mygymclub.R;
-import com.xiaoming.exercise.mygymclub.net.RestClient;
+import com.xiaoming.ex_media.R;
+import com.xiaoming.ex_media.net.RestClient;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

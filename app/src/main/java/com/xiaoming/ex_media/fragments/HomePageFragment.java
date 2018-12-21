@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.xfhy.easybanner.ui.EasyBanner;
-import com.xiaoming.exercise.mygymclub.R;
+import com.xiaoming.ex_media.R;
 
 import java.util.ArrayList;
 import java.util.List;

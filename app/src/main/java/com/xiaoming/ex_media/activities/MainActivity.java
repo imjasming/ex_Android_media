@@ -16,9 +16,9 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.xiaoming.exercise.mygymclub.R;
-import com.xiaoming.exercise.mygymclub.fragments.HomePageFragment;
-import com.xiaoming.exercise.mygymclub.fragments.TrainerBookingFragment;
+import com.xiaoming.ex_media.R;
+import com.xiaoming.ex_media.fragments.HomePageFragment;
+import com.xiaoming.ex_media.fragments.TrainerBookingFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

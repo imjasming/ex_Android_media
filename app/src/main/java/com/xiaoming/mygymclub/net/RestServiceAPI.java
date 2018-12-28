@@ -1,6 +1,6 @@
 package com.xiaoming.mygymclub.net;
 
-import com.xiaoming.mygymclub.model.User;
+import com.xiaoming.mygymclub.entities.User;
 
 import java.util.Map;
 

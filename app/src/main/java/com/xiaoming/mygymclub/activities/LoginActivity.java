@@ -8,7 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.TypeReference;
 import com.xiaoming.mygymclub.R;
+import com.xiaoming.mygymclub.entities.User;
+import com.xiaoming.mygymclub.entities.UserClient;
 import com.xiaoming.mygymclub.net.RestClient;
 
 import butterknife.BindView;
@@ -44,6 +48,9 @@ public class LoginActivity extends AppCompatActivity {
                         .params("username", username)
                         .params("password", password)
                         .success(response -> {
+                            UserClient client = UserClient.getInstance();
+                            client.setUser(JSON.parseObject(response, new TypeReference<User>(){}));
+
                             Intent intent = new Intent(this, MainActivity.class);
                             startActivity(intent);
                             Toast.makeText(this, response,Toast.LENGTH_LONG).show();

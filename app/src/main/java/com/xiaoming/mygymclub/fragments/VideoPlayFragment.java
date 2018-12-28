@@ -35,8 +35,8 @@ public class VideoPlayFragment extends BaseBackFragment {
 
     @BindView(R.id.video_view)
     IjkVideoView mVideoView;
-    /*@BindView(R.id.toolbar)
-    Toolbar mToolbar;*/
+    @BindView(R.id.toolbar)
+    Toolbar mToolbar;
 
     private OnFragmentInteractionListener mListener;
 
@@ -77,10 +77,8 @@ public class VideoPlayFragment extends BaseBackFragment {
         mVideoView.setVideoURI(Uri.parse(mVideoUrl));
         mVideoView.start();
 
-
-
-       /* mToolbar.setTitle("");
-        initToolbarNav(mToolbar);*/
+        mToolbar.setTitle("Teaching video");
+        initToolbarNav(mToolbar);
         return v;
     }
 
